@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		2C28180729F3AB55001F1A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28180629F3AB55001F1A42 /* AppDelegate.m */; };
 		2C28180A29F3AB55001F1A42 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28180929F3AB55001F1A42 /* SceneDelegate.m */; };
-		2C28180D29F3AB55001F1A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28180C29F3AB55001F1A42 /* ViewController.m */; };
+		2C28180D29F3AB55001F1A42 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28180C29F3AB55001F1A42 /* MainViewController.m */; };
 		2C28181029F3AB55001F1A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C28180E29F3AB55001F1A42 /* Main.storyboard */; };
 		2C28181229F3AB56001F1A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C28181129F3AB56001F1A42 /* Assets.xcassets */; };
 		2C28181529F3AB56001F1A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C28181329F3AB56001F1A42 /* LaunchScreen.storyboard */; };
 		2C28181829F3AB56001F1A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28181729F3AB56001F1A42 /* main.m */; };
+		2C28182129F3AC47001F1A42 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28182029F3AC47001F1A42 /* SecondViewController.m */; };
+		2C28182529F4113F001F1A42 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C28182429F4113F001F1A42 /* Second.storyboard */; };
+		2C28182829F413F1001F1A42 /* SecondPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28182729F413F1001F1A42 /* SecondPresentAnimation.m */; };
+		2C28182C29F41D53001F1A42 /* SwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28182B29F41D53001F1A42 /* SwipeUpInteractiveTransition.m */; };
+		2C28182F29F42229001F1A42 /* NormalDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C28182E29F42229001F1A42 /* NormalDismissAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +27,22 @@
 		2C28180629F3AB55001F1A42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C28180829F3AB55001F1A42 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2C28180929F3AB55001F1A42 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2C28180B29F3AB55001F1A42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C28180C29F3AB55001F1A42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C28180B29F3AB55001F1A42 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2C28180C29F3AB55001F1A42 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2C28180F29F3AB55001F1A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C28181129F3AB56001F1A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C28181429F3AB56001F1A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C28181629F3AB56001F1A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C28181729F3AB56001F1A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C28181F29F3AC47001F1A42 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2C28182029F3AC47001F1A42 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2C28182429F4113F001F1A42 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		2C28182629F413F1001F1A42 /* SecondPresentAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondPresentAnimation.h; sourceTree = "<group>"; };
+		2C28182729F413F1001F1A42 /* SecondPresentAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondPresentAnimation.m; sourceTree = "<group>"; };
+		2C28182A29F41D53001F1A42 /* SwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		2C28182B29F41D53001F1A42 /* SwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		2C28182D29F42229001F1A42 /* NormalDismissAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalDismissAnimation.h; sourceTree = "<group>"; };
+		2C28182E29F42229001F1A42 /* NormalDismissAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalDismissAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +75,13 @@
 		2C28180429F3AB55001F1A42 /* viewControllerTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2C28181E29F3AC15001F1A42 /* SecondViewController */,
 				2C28180529F3AB55001F1A42 /* AppDelegate.h */,
 				2C28180629F3AB55001F1A42 /* AppDelegate.m */,
 				2C28180829F3AB55001F1A42 /* SceneDelegate.h */,
 				2C28180929F3AB55001F1A42 /* SceneDelegate.m */,
-				2C28180B29F3AB55001F1A42 /* ViewController.h */,
-				2C28180C29F3AB55001F1A42 /* ViewController.m */,
+				2C28180B29F3AB55001F1A42 /* MainViewController.h */,
+				2C28180C29F3AB55001F1A42 /* MainViewController.m */,
 				2C28180E29F3AB55001F1A42 /* Main.storyboard */,
 				2C28181129F3AB56001F1A42 /* Assets.xcassets */,
 				2C28181329F3AB56001F1A42 /* LaunchScreen.storyboard */,
@@ -74,6 +89,38 @@
 				2C28181729F3AB56001F1A42 /* main.m */,
 			);
 			path = viewControllerTransitionDemo;
+			sourceTree = "<group>";
+		};
+		2C28181E29F3AC15001F1A42 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C28183029F516C2001F1A42 /* NormalAnimation */,
+				2C28182929F41CFC001F1A42 /* SwipeUpViewController */,
+				2C28182429F4113F001F1A42 /* Second.storyboard */,
+				2C28181F29F3AC47001F1A42 /* SecondViewController.h */,
+				2C28182029F3AC47001F1A42 /* SecondViewController.m */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		2C28182929F41CFC001F1A42 /* SwipeUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C28182A29F41D53001F1A42 /* SwipeUpInteractiveTransition.h */,
+				2C28182B29F41D53001F1A42 /* SwipeUpInteractiveTransition.m */,
+				2C28182D29F42229001F1A42 /* NormalDismissAnimation.h */,
+				2C28182E29F42229001F1A42 /* NormalDismissAnimation.m */,
+			);
+			path = SwipeUpViewController;
+			sourceTree = "<group>";
+		};
+		2C28183029F516C2001F1A42 /* NormalAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2C28182629F413F1001F1A42 /* SecondPresentAnimation.h */,
+				2C28182729F413F1001F1A42 /* SecondPresentAnimation.m */,
+			);
+			path = NormalAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C28182529F4113F001F1A42 /* Second.storyboard in Resources */,
 				2C28181529F3AB56001F1A42 /* LaunchScreen.storyboard in Resources */,
 				2C28181229F3AB56001F1A42 /* Assets.xcassets in Resources */,
 				2C28181029F3AB55001F1A42 /* Main.storyboard in Resources */,
@@ -146,8 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C28180D29F3AB55001F1A42 /* ViewController.m in Sources */,
+				2C28182F29F42229001F1A42 /* NormalDismissAnimation.m in Sources */,
+				2C28182129F3AC47001F1A42 /* SecondViewController.m in Sources */,
+				2C28180D29F3AB55001F1A42 /* MainViewController.m in Sources */,
+				2C28182829F413F1001F1A42 /* SecondPresentAnimation.m in Sources */,
 				2C28180729F3AB55001F1A42 /* AppDelegate.m in Sources */,
+				2C28182C29F41D53001F1A42 /* SwipeUpInteractiveTransition.m in Sources */,
 				2C28181829F3AB56001F1A42 /* main.m in Sources */,
 				2C28180A29F3AB55001F1A42 /* SceneDelegate.m in Sources */,
 			);
@@ -298,8 +350,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +379,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
